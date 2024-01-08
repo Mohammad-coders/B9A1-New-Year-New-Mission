@@ -1,14 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
+
+.section-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 63px;
+    font-weight: 574;
+    margin-bottom: 40px;
+}
+
+.section-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.categorie-section{
+    color: black;
+    font-family: Inter;
+    font-size: 39px;
+    font-weight: 570;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
 header {
     width: 1080px;
     height: 490px;
     margin: 40px auto;
-    background: linear-gradient(180deg, #070211 0%, rgba(7,2,17,0.0) 100%), url("../resources/Banner\ Image.png");
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.0) 100%), url("../resources/Banner\ Image.png");
     /* background-image: url("../resources/Banner\ Image.png"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +45,7 @@ header {
     color: white;
     font-family: Merriweather;
 }
-.new-year{
+.new-year {
     width: 180px;
     height: 35px;
     font-size: 20px;
@@ -30,10 +55,20 @@ header {
 }
 .title {
     width: 400px;
-    height: 10px; 
+    height: 10px;
     font-size: 50px;
     font-weight: bold;
     padding-left: 280px;
     padding-bottom: 140px;
     line-height: 80px;
+}
+
+.offer-percentage {
+    text-align: center;
+    margin-top: 98px;
+}
+.happy-new-image{
+    width: 660px;
+    height: 400px;
+    margin-top: 40px;
 }
