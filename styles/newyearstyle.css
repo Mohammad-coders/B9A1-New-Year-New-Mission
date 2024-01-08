@@ -21,6 +21,10 @@
     font-weight: 400;
     margin-top: 0px;
 }
+.btn-primary{
+    font-family: Inter;
+
+}
 .categorie-section{
     color: black;
     font-family: Inter;
@@ -29,15 +33,17 @@
     margin-top: 13px;
     margin-bottom: 0px;
 }
-header {
+.background-primary{
     width: 1080px;
     height: 490px;
     margin: 40px auto;
+    border-radius: 13px;
+}
+.header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.0) 100%), url("../resources/Banner\ Image.png");
     /* background-image: url("../resources/Banner\ Image.png"); */
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 13px;
 }
 
 .header-content {
@@ -66,9 +72,51 @@ header {
 .offer-percentage {
     text-align: center;
     margin-top: 98px;
+    margin-bottom: 0px;
 }
 .happy-new-image{
     width: 660px;
     height: 400px;
     margin-top: 40px;
+}
+.welcome-party-container{
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7,2,17,0.00) 100%), url("../resources/Vectorrr.png");
+    height: 490px;
+    margin-top: 90px;
+    border-radius: 13px;
+}
+.welcome-party-content{
+    width: 80%;
+}
+.welcome-title{
+    width: 500px;
+    color: white;
+    line-height: 72px;
+    padding: 100px 0px 0px 100px;
+    margin-bottom: 0;
+    font-size: 52px;
+}
+#welcome-description{
+    width: 570px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-weight: 330;
+    line-height: 25px;
+    padding: 0px 0px 0px 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.welcome-party-content > a{
+    text-decoration: none;
+}
+#link-join{
+    color: white;
+    padding-left: 130px;
+    font-size: 16px;
+    font-weight: 570;
+}
+.welcome-party-content img{
+    width: 260px;
+    padding: 55px 113px;
 }
