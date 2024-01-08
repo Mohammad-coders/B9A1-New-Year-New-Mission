@@ -129,6 +129,7 @@
     background: linear-gradient(180deg, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.00)100%);
     border-radius: 10px;
     margin-top: 120px;
+    margin-bottom: 0px;
 }
 .join-section{
     text-align: center;
@@ -145,4 +146,40 @@
 }
 .join-content p > span{
     color: #F00;
+}
+.new-offer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#best-offer-deal{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.best-offer-deal-title{
+    margin-top: 13px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 574;
+    text-transform: capitalize;
+}
+#best-offer-deal-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 320;
+    margin-top: 18px;
+}
+.circle-section{
+    background: url("../resources/Ellipse\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 290px 290px;
+    border-radius: 290px;
+    padding: 30px;
+    width: 770.4px;
+    height: 370.4px;
+    border-radius: 50%;
+    border: 12px solid #F00;
 }
