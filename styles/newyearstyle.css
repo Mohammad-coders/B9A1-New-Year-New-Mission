@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 .section-title {
     color: #F00;
     font-family: Inter;
@@ -12,6 +13,7 @@
     font-weight: 574;
     margin-bottom: 40px;
 }
+
 .section-description {
     color: #F00;
     font-family: Inter;
@@ -19,7 +21,8 @@
     font-weight: 400;
     margin-top: 0px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 82px;
     height: 24px;
     background-color: #F00;
@@ -29,7 +32,8 @@
     border-radius: 6px;
     cursor: pointer;
 }
-.categorie-section{
+
+.categorie-section {
     color: black;
     font-family: Inter;
     font-size: 39px;
@@ -37,12 +41,14 @@
     margin-top: 13px;
     margin-bottom: 0px;
 }
-.background-primary{
+
+.background-primary {
     width: 1080px;
     height: 490px;
     margin: 40px auto;
     border-radius: 13px;
 }
+
 .header {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.0) 100%), url("../resources/Banner\ Image.png");
     /* background-image: url("../resources/Banner\ Image.png"); */
@@ -55,6 +61,7 @@
     color: white;
     font-family: Merriweather;
 }
+
 .new-year {
     width: 180px;
     height: 35px;
@@ -63,6 +70,7 @@
     padding-top: 140px;
     padding-left: 430px;
 }
+
 .title {
     width: 400px;
     height: 10px;
@@ -78,22 +86,26 @@
     margin-top: 98px;
     margin-bottom: 0px;
 }
-.happy-new-image{
+
+.happy-new-image {
     width: 660px;
     height: 400px;
     margin-top: 40px;
 }
-.welcome-party-container{
+
+.welcome-party-container {
     display: flex;
-    background: linear-gradient(90deg, #070211 0%, rgba(7,2,17,0.00) 100%), url("../resources/Vectorrr.png");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     height: 490px;
     margin-top: 90px;
     border-radius: 13px;
 }
-.welcome-party-content{
+
+.welcome-party-content {
     width: 80%;
 }
-.welcome-title{
+
+.welcome-title {
     width: 500px;
     color: white;
     line-height: 72px;
@@ -101,7 +113,8 @@
     margin-bottom: 0;
     font-size: 52px;
 }
-#welcome-description{
+
+#welcome-description {
     width: 570px;
     color: rgba(255, 255, 255, 0.80);
     font-size: 15px;
@@ -111,67 +124,81 @@
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.welcome-party-content > a{
+
+.welcome-party-content>a {
     text-decoration: none;
 }
-#link-join{
+
+#link-join {
     color: white;
     padding-left: 130px;
     font-size: 16px;
     font-weight: 570;
 }
-.welcome-party-content img{
+
+.welcome-party-content img {
     width: 260px;
     padding: 55px 113px;
 }
-.join-content{
+
+.join-content {
     height: 394px;
-    background: linear-gradient(180deg, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.00)100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00)100%);
     border-radius: 10px;
     margin-top: 120px;
     margin-bottom: 0px;
 }
-.join-section{
+
+.join-section {
     text-align: center;
 }
-.join-content{
+
+.join-content {
     padding-top: 80px;
 }
-.join-content > p{
+
+.join-content>p {
     font-size: 25px;
     font-weight: 600;
 }
-.join-content > p,button{
+
+.join-content>p,
+button {
     margin-bottom: 38px;
 }
-.join-content p > span{
+
+.join-content p>span {
     color: #F00;
 }
-.new-offer-content{
+
+.new-offer-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 10px;
 }
-#best-offer-deal{
+
+#best-offer-deal {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0px;
 }
-.best-offer-deal-title{
+
+.best-offer-deal-title {
     margin-top: 13px;
     font-family: Inter;
     font-size: 40px;
     font-weight: 574;
     text-transform: capitalize;
 }
-#best-offer-deal-description{
+
+#best-offer-deal-description {
     color: rgba(7, 2, 17, 0.60);
     font-size: 16px;
     font-weight: 320;
     margin-top: 18px;
 }
-.circle-section{
+
+.circle-section {
     background: url("../resources/Ellipse\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -179,7 +206,30 @@
     border-radius: 290px;
     padding: 30px;
     width: 870.4px;
-    height: 370.4px;
+    height: 260.4px;
     border: 12px solid #F00;
     border-radius: 50%;
+}
+
+.new-offer-description {
+    margin-left: 100px;
+
+}
+#new-year{
+    font-size: 40px;
+    font-weight: 570;
+    margin-bottom: 0px;
+}
+#new-offer-description{
+    width: 220px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-weight: 320;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+#happy-new-year-image{
+    width: 112px;
+    height: 112px;
+    margin-top: 34px;
 }
