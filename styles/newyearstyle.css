@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
 }
-
 .section-title {
     color: #F00;
     font-family: Inter;
@@ -13,7 +12,6 @@
     font-weight: 574;
     margin-bottom: 40px;
 }
-
 .section-description {
     color: #F00;
     font-family: Inter;
@@ -22,8 +20,14 @@
     margin-top: 0px;
 }
 .btn-primary{
+    width: 82px;
+    height: 24px;
+    background-color: #F00;
+    color: white;
     font-family: Inter;
-
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 .categorie-section{
     color: black;
@@ -119,4 +123,25 @@
 .welcome-party-content img{
     width: 260px;
     padding: 55px 113px;
+}
+.join-content{
+    height: 394px;
+    background: linear-gradient(180deg, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.00)100%);
+    border-radius: 10px;
+}
+.join-section{
+    text-align: center;
+}
+.join-content{
+    padding-top: 80px;
+}
+.join-content > p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.join-content > p,button{
+    margin-bottom: 38px;
+}
+.join-content p > span{
+    color: #F00;
 }
