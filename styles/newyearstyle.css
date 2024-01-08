@@ -296,22 +296,24 @@ button {
     background-size: 343px 346px;
 }
 
-#box-img{
+#box-img {
     width: 300px;
     height: 300px;
     margin-top: 180px;
 }
-.portfolio-container{
+
+.portfolio-container {
     font-family: Inter;
     margin-top: 400px;
 }
-.portfolio-container .portfolio-tag{
+
+.portfolio-container .portfolio-tag {
     color: #F00;
     font-size: 20px;
     font-weight: 400;
 }
 
-#portfolio-title{
+#portfolio-title {
     color: #070211;
     font-size: 40px;
     font-weight: 720;
@@ -319,45 +321,52 @@ button {
     margin-bottom: 0px;
 }
 
-.portfolio-description{
+.portfolio-description {
     width: 710px;
     color: rgba(7, 2, 17, 0.60);
     margin-top: 17px;
 }
-.portfolio-content1{
+
+.portfolio-content1 {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
 }
-.portfolio-content1 img{
+
+.portfolio-content1 img {
     width: 300px;
     transition: 0.4s ease-in-out;
 }
-.portfolio-content1 img:hover{
+
+.portfolio-content1 img:hover {
     border: 5px solid orangered;
     border-radius: 10px;
     box-shadow: 0px 2px 10px black;
 }
-.subscribe-section{
+
+.subscribe-section {
     background: rgba(255, 0, 0, 0.05);
     border-radius: 13px;
     margin-top: 450px;
     text-align: center;
     padding-top: 65px;
+    margin-bottom: 0px;
 }
 
-.mail-icon{
+.mail-icon {
     width: 120px;
     height: 120px;
     margin-bottom: 0px;
 }
-#subscribe-title{
+
+#subscribe-title {
     color: #070211;
     font-size: 40px;
     font-weight: 720;
     margin-top: 32px;
 }
-#subscribe-description{
+
+#subscribe-description {
     width: 716px;
     color: rgba(7, 2, 17, 0.60);
     padding-left: 170px;
@@ -365,7 +374,7 @@ button {
     margin-bottom: 0px;
 }
 
-#search-subscribe{
+#search-subscribe {
     width: 450px;
     height: 57px;
     position: relative;
@@ -374,7 +383,7 @@ button {
     padding: 20px 0px 20px 25px;
 }
 
-#btn-subscribe{
+#btn-subscribe {
     width: 510x;
     height: 57px;
     color: white;
@@ -382,4 +391,51 @@ button {
     border-radius: 0px 50px 50px 0px;
     padding: 20px 45px;
     border: none;
+}
+
+footer {
+    background-color: #070211;
+    height: 487px;
+    margin-top: 96px;
+}
+
+#footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 96px;
+    color: white;
+}
+
+.footer-content {
+    color: white;
+}
+
+.social-link {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding-top: 78px;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr {
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 50px;
+}
+
+.hr:hover {
+    background-color: rebeccapurple;
+}
+
+.bottom-portion {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.footer-icon{
+    width: 20px;
+    height: 20px;
 }
