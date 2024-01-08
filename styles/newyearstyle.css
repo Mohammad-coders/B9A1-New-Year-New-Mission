@@ -215,12 +215,14 @@ button {
     margin-left: 100px;
 
 }
-#new-year{
+
+#new-year {
     font-size: 40px;
     font-weight: 570;
     margin-bottom: 0px;
 }
-#new-offer-description{
+
+#new-offer-description {
     width: 220px;
     color: rgba(7, 2, 17, 0.60);
     font-size: 16px;
@@ -228,8 +230,74 @@ button {
     margin-top: 13px;
     margin-bottom: 0px;
 }
-#happy-new-year-image{
+
+#happy-new-year-image {
     width: 112px;
     height: 112px;
     margin-top: 34px;
+}
+
+#holiday-sales-query {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 95px;
+    margin-bottom: 0px;
+}
+
+#holiday-sales-title {
+    font-size: 57px;
+    font-weight: 720;
+    margin-top: 13px;
+}
+
+#holiday-sales-title>span {
+    color: #070211;
+}
+
+#holiday-sales-description {
+    width: 850px;
+    color: rgba(7, 2, 17, 0.60);
+    margin-left: 213px;
+}
+
+.discount-container img {
+    width: 230px;
+    height: 210px;
+}
+
+.discount-container {
+    /* */
+    display: flex;
+    margin-top: 50px;
+    width: 1000px;
+    height: 495px;
+    background-image: url("../resources/Rectangle\ 2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1020px 150px;
+    border-radius: 13px;
+}
+
+#discount-img {
+    width: 165px;
+    height: 165px;
+    /* position: relative; */
+    margin-top: 90px;
+    margin-left: -90px;
+}
+
+.discount-img {
+    background-image: url("../resources/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 343px;
+    height: 346px;
+    margin-left: 428px;
+    background-size: 343px 346px;
+}
+
+#box-img{
+    width: 300px;
+    height: 300px;
+    margin-top: 180px;
 }
